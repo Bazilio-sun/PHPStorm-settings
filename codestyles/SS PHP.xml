@@ -24,7 +24,7 @@
   </XML>
   <codeStyleSettings language="JSON">
     <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
