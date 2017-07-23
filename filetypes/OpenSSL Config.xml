@@ -1,0 +1,21 @@
+<filetype binary="false" description="OpenSSL Config" name="OpenSSL Config">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="#" />
+      <option name="COMMENT_START" value="[" />
+      <option name="COMMENT_END" value="]" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+    </options>
+    <keywords keywords="accuracy;attributes;dddd" ignore_case="false">
+      <keyword name="fff;ggg" />
+    </keywords>
+    <keywords2 keywords="countryName" />
+    <keywords3 keywords="utf8only" />
+    <keywords4 keywords="digitalSignature" />
+  </highlighting>
+  <extensionMap>
+    <mapping ext="cfg" />
+    <mapping ext="cnf" />
+  </extensionMap>
+</filetype>
