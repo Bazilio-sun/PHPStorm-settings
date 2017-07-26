@@ -1,0 +1,40 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
+  </component>
+  <component name="LiveEditOptions" restartIfHotSwapFailed="true" updatePolicy="AUTO" />
+  <component name="SqlEditorOptions">
+    <option name="concatenateStringsOnEnter" value="true" />
+    <option name="qualificationType" value="On collisions" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern pattern="\bsstodo\b.*" />
+    <pattern useCustomColors="true" pattern="\bss\b.*">
+      <option name="FOREGROUND" value="b915bf" />
+      <option name="BACKGROUND" value="84ff54" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="EFFECT_COLOR" value="ff0012" />
+      <option name="ERROR_STRIPE_COLOR" value="300ff" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="\bssq\b.*">
+      <option name="FOREGROUND" value="b000dc" />
+      <option name="BACKGROUND" value="fdff00" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="ff15" />
+      <option name="EFFECT_TYPE" value="1" />
+    </pattern>
+    <filter name="ss todo">
+      <pattern index="2" />
+    </filter>
+    <filter name="ss">
+      <pattern index="3" />
+    </filter>
+    <filter name="ssq">
+      <pattern index="4" />
+    </filter>
+  </component>
+</application>
