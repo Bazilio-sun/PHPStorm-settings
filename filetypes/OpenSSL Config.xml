@@ -19,5 +19,6 @@
   <extensionMap>
     <mapping ext="cfg" />
     <mapping ext="cnf" />
+    <mapping ext="config" />
   </extensionMap>
 </filetype>
