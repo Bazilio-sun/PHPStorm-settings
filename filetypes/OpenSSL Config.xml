@@ -13,7 +13,8 @@
     <keywords4 keywords="cRLSign;critical;dataEncipherment;decipherOnly;digitalSignature;encipherOnly;keyAgreement;keyCertSign;keyEncipherment;nonRepudiation;openssl_conf" />
   </highlighting>
   <extensionMap>
-    <mapping ext="cnf" />
     <mapping ext="cfg" />
+    <mapping ext="cnf" />
+    <mapping ext="config" />
   </extensionMap>
 </filetype>
