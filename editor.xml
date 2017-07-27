@@ -12,8 +12,12 @@
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
-    <pattern pattern="\bsstodo\b.*" />
-    <pattern useCustomColors="true" pattern="\bss\b.*">
+    <pattern useCustomColors="true" pattern="\bsstodo\b.*">
+      <option name="FOREGROUND" value="73bf" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+    </pattern>
+    <pattern icon="question" useCustomColors="true" pattern="\bss\b.*">
       <option name="FOREGROUND" value="b915bf" />
       <option name="BACKGROUND" value="84ff54" />
       <option name="FONT_TYPE" value="3" />
