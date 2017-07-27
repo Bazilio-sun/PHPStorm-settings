@@ -17,13 +17,6 @@
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="54aae3" />
     </pattern>
-    <pattern icon="question" useCustomColors="true" pattern="\bss\b.*">
-      <option name="FOREGROUND" value="b915bf" />
-      <option name="BACKGROUND" value="84ff54" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="EFFECT_COLOR" value="ff0012" />
-      <option name="ERROR_STRIPE_COLOR" value="300ff" />
-    </pattern>
     <pattern useCustomColors="true" pattern="\bssq\b.*">
       <option name="FOREGROUND" value="b000dc" />
       <option name="BACKGROUND" value="fdff00" />
@@ -31,13 +24,20 @@
       <option name="ERROR_STRIPE_COLOR" value="ff15" />
       <option name="EFFECT_TYPE" value="1" />
     </pattern>
-    <filter name="ss todo">
+    <pattern icon="question" useCustomColors="true" case-sensitive="true" pattern="\bSSM\b.*">
+      <option name="FOREGROUND" value="760c" />
+      <option name="BACKGROUND" value="fffd02" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="EFFECT_COLOR" value="ff0014" />
+      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+    </pattern>
+    <filter name="SS TODO">
       <pattern index="2" />
     </filter>
-    <filter name="ss">
+    <filter name="SSQ">
       <pattern index="3" />
     </filter>
-    <filter name="ssq">
+    <filter name="SSM">
       <pattern index="4" />
     </filter>
   </component>
